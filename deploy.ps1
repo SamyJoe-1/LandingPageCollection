@@ -52,15 +52,15 @@ $trackerData = Get-Content $TRACKER -Raw | ConvertFrom-Json
 $trackerData.projects = @($trackerData.projects) + @([PSCustomObject]@{ brand = $Brand; date = $date; url = $URL })
 $trackerData | ConvertTo-Json -Depth 5 | Out-File -FilePath $TRACKER -Encoding utf8
 
-# Update README.md
+# Update README.md — insert new row after the header separator line
 $newRow = "| $date | [$Brand]($URL) | $URL |"
 $lines = Get-Content $README
 $insertIdx = -1
 for ($i = 0; $i -lt $lines.Length; $i++) {
-    if ($lines[$i] -match "^\|[-|]+\|[-|]+\|[-|]+\|") {
+    if ($lines[$i] -match "^\|[-|\ ]+\|") {
         $insertIdx = $i + 1
         break
     }
 }
 if ($insertIdx -ge 0) {
-    $newLines = $lines[0..($insertIdx-1)] + 
+    $
