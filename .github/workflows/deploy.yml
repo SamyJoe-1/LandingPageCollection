@@ -1,0 +1,68 @@
+name: Deploy to Vercel
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "projects/**"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Detect changed project
+        id: detect
+        run: |
+          CHANGED=$(git diff --name-only HEAD~1 HEAD | grep '^projects/' | cut -d'/' -f2 | sort -u | head -1)
+          echo "project=$CHANGED" >> $GITHUB_OUTPUT
+          echo "Deploying: $CHANGED"
+
+      - name: Install Vercel CLI
+        run: npm install -g vercel
+
+      - name: Deploy to Vercel
+        id: deploy
+        run: |
+          cd projects/${{ steps.detect.outputs.project }}
+          URL=$(vercel deploy --prod --yes --token=${{ secrets.VERCEL_TOKEN }} 2>&1 | grep -oP 'https://[^\s]+\.vercel\.app' | tail -1)
+          echo "url=$URL" >> $GITHUB_OUTPUT
+          echo "✅ Live at: $URL"
+
+      - name: Update tracker.json
+        run: |
+          PROJECT="${{ steps.detect.outputs.project }}"
+          URL="${{ steps.deploy.outputs.url }}"
+          DATE=$(date +%Y-%m-%d)
+          python3 - <<EOF
+          import json, os
+          path = "tracker.json"
+          data = json.load(open(path)) if os.path.exists(path) else {"projects": []}
+          data["projects"].append({"brand": "$PROJECT", "date": "$DATE", "url": "$URL"})
+          json.dump(data, open(path, "w"), indent=2)
+          EOF
+
+      - name: Update README
+        run: |
+          PROJECT="${{ steps.detect.outputs.project }}"
+          URL="${{ steps.deploy.outputs.url }}"
+          DATE=$(date +%Y-%m-%d)
+          python3 - <<EOF
+          with open("README.md", "r") as f:
+              content = f.read()
+          entry = f"\n| {DATE} | [{PROJECT}]({URL}) | {URL} |"
+          if "## Live Projects" not in content:
+              content += "\n\n## Live Projects\n\n| Date | Brand | Live URL |\n|------|-------|----------|\n"
+          content += entry
+          with open("README.md", "w") as f:
+              f.write(content)
+          EOF
+
+      - name: Commit & push tracker + README
+        run: |
+          git config user.email "pipeline@auto.build"
+          git config user.name "AutoPipeline"
+          git add tracker.json README.md
+          git diff --staged --quiet || git commit -m "🚀 Deploy ${{ steps.detect.outputs.project }} [${{ steps.deploy.outputs.url }}]"
+          git push
