@@ -9,6 +9,11 @@
                          "brand":  "testing",
                          "date":  "2026-06-05",
                          "url":  "https://testing-972a5lpjk-samyjoes-projects.vercel.app"
+                     },
+                     {
+                         "brand":  "onyx-coffee-lab",
+                         "date":  "2026-06-05",
+                         "url":  "https://onyx-coffee-3nv1n4chu-samyjoes-projects.vercel.app"
                      }
                  ]
 }
