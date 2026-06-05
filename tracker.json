@@ -1,3 +1,9 @@
 {
-  "projects": []
+  "projects": [
+    {
+      "brand": "testing",
+      "date": "2026-06-05",
+      "url": "https://testing-oauir8pdd-samyjoes-projects.vercel.app"
+    }
+  ]
 }
