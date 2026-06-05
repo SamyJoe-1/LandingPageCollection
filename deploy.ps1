@@ -44,17 +44,23 @@ if (-not $URL) {
 
 Write-Host "LIVE: $URL" -ForegroundColor Green
 
-# Update tracker.json
 Set-Location $PSScriptRoot
 $date = (Get-Date -Format "yyyy-MM-dd")
+
+# Update tracker.json
 $trackerData = Get-Content $TRACKER -Raw | ConvertFrom-Json
 $trackerData.projects = @($trackerData.projects) + @([PSCustomObject]@{ brand = $Brand; date = $date; url = $URL })
 $trackerData | ConvertTo-Json -Depth 5 | Out-File -FilePath $TRACKER -Encoding utf8
 
 # Update README.md
-$entry = "| $date | [$Brand]($URL) | $URL |"
-$content = Get-Content $README -Raw
-if ($content -notmatch "## 🌐 Live Projects") {
-    $content += "`n`n## 🌐 Live Projects`n`n| Date | Brand | Live URL |`n|------|-------|----------|`n"
+$newRow = "| $date | [$Brand]($URL) | $URL |"
+$lines = Get-Content $README
+$insertIdx = -1
+for ($i = 0; $i -lt $lines.Length; $i++) {
+    if ($lines[$i] -match "^\|[-|]+\|[-|]+\|[-|]+\|") {
+        $insertIdx = $i + 1
+        break
+    }
 }
-$content = $content -replace "(\|------|-------|----------\|)", "`$1`n
+if ($insertIdx -ge 0) {
+    $newLines = $lines[0..($insertIdx-1)] + 
