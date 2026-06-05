@@ -6,6 +6,7 @@ param(
     [string]$Brand
 )
 
+# Load token from local config (never committed to git)
 $configFile = "$PSScriptRoot\.env.local"
 if (-not (Test-Path $configFile)) {
     Write-Host "ERROR: .env.local not found. Create it with: VERCEL_TOKEN=your_token" -ForegroundColor Red
@@ -46,9 +47,9 @@ Write-Host "LIVE: $URL" -ForegroundColor Green
 # Update tracker.json
 Set-Location $PSScriptRoot
 $date = (Get-Date -Format "yyyy-MM-dd")
-$tracker = Get-Content $TRACKER | ConvertFrom-Json
-$tracker.projects += [PSCustomObject]@{ brand = $Brand; date = $date; url = $URL }
-$tracker | ConvertTo-Json -Depth 5 | Set-Content $TRACKER
+$trackerData = Get-Content $TRACKER -Raw | ConvertFrom-Json
+$trackerData.projects = @($trackerData.projects) + @([PSCustomObject]@{ brand = $Brand; date = $date; url = $URL })
+$trackerData | ConvertTo-Json -Depth 5 | Out-File -FilePath $TRACKER -Encoding utf8
 
 # Update README.md
 $entry = "| $date | [$Brand]($URL) | $URL |"
@@ -56,17 +57,4 @@ $content = Get-Content $README -Raw
 if ($content -notmatch "## 🌐 Live Projects") {
     $content += "`n`n## 🌐 Live Projects`n`n| Date | Brand | Live URL |`n|------|-------|----------|`n"
 }
-$content = $content -replace "(\|------|-------|----------\|)", "`$1`n$entry"
-Set-Content $README $content
-
-# Git commit & push
-git add tracker.json README.md
-git diff --staged --quiet
-if ($LASTEXITCODE -ne 0) {
-    git commit -m "deploy: $Brand -> $URL"
-    git push origin main
-    Write-Host "README + tracker updated and pushed." -ForegroundColor Green
-}
-
-Write-Host ""
-Write-Host "Done! Live at: $URL" -ForegroundColor Green
+$content = $content -replace "(\|------|-------|----------\|)", "`$1`n
