@@ -1,19 +1,24 @@
-﻿{
-    "projects":  [
-                     {
-                         "brand":  "testing",
-                         "date":  "2026-06-05",
-                         "url":  "https://testing-oauir8pdd-samyjoes-projects.vercel.app"
-                     },
-                     {
-                         "brand":  "testing",
-                         "date":  "2026-06-05",
-                         "url":  "https://testing-972a5lpjk-samyjoes-projects.vercel.app"
-                     },
-                     {
-                         "brand":  "onyx-coffee-lab",
-                         "date":  "2026-06-05",
-                         "url":  "https://onyx-coffee-3nv1n4chu-samyjoes-projects.vercel.app"
-                     }
-                 ]
+{
+    "projects": [
+        {
+            "brand": "testing",
+            "date": "2026-06-05",
+            "url": "https://testing-oauir8pdd-samyjoes-projects.vercel.app"
+        },
+        {
+            "brand": "testing",
+            "date": "2026-06-05",
+            "url": "https://testing-972a5lpjk-samyjoes-projects.vercel.app"
+        },
+        {
+            "brand": "onyx-coffee-lab",
+            "date": "2026-06-05",
+            "url": "https://onyx-coffee-3nv1n4chu-samyjoes-projects.vercel.app"
+        },
+        {
+            "brand": "verve-coffee-roasters",
+            "date": "2026-06-06",
+            "url": "pending-deploy"
+        }
+    ]
 }
