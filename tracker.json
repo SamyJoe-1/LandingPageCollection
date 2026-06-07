@@ -1,4 +1,4 @@
-﻿{
+{
     "projects":  [
                      {
                          "brand":  "testing",
@@ -24,6 +24,11 @@
                          "brand":  "verve-coffee-roasters",
                          "date":  "2026-06-06",
                          "url":  "https://verve-coffee-roasters-2dco8a8hb-samyjoes-projects.vercel.app"
+                     },
+                     {
+                         "brand":  "intelligentsia-coffee",
+                         "date":  "2026-06-07",
+                         "url":  "pending-deploy"
                      }
                  ]
 }
