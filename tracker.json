@@ -1,4 +1,4 @@
-{
+﻿{
     "projects":  [
                      {
                          "brand":  "testing",
@@ -29,6 +29,11 @@
                          "brand":  "intelligentsia-coffee",
                          "date":  "2026-06-07",
                          "url":  "pending-deploy"
+                     },
+                     {
+                         "brand":  "intelligentsia-coffee",
+                         "date":  "2026-06-07",
+                         "url":  "https://intelligentsia-coffee-93tppcybu-samyjoes-projects.vercel.app"
                      }
                  ]
 }
