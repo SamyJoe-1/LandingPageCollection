@@ -2,6 +2,7 @@
 
 | Date | Brand | Live URL |
 |------|-------|----------|
+| 2026-06-10 | [sightglass-coffee](https://sightglass-coffee-7b2mq2fqc-samyjoes-projects.vercel.app) | https://sightglass-coffee-7b2mq2fqc-samyjoes-projects.vercel.app |
 | 2026-06-09 | [blue-bottle-coffee](https://blue-bottle-coffee-3jvbpnyx3-samyjoes-projects.vercel.app) | https://blue-bottle-coffee-3jvbpnyx3-samyjoes-projects.vercel.app |
 | 2026-06-08 | [stumptown-coffee-roasters](https://stumptown-coffee-roasters-h3p0q0kth-samyjoes-projects.vercel.app) | https://stumptown-coffee-roasters-h3p0q0kth-samyjoes-projects.vercel.app |
 | 2026-06-07 | [intelligentsia-coffee](https://intelligentsia-coffee-93tppcybu-samyjoes-projects.vercel.app) | https://intelligentsia-coffee-93tppcybu-samyjoes-projects.vercel.app |
