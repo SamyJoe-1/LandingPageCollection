@@ -74,6 +74,11 @@
             "brand": "la-colombe-coffee-roasters",
             "date": "2026-06-13",
             "url": "pending-deploy"
+        },
+        {
+            "brand": "ritual-coffee-roasters",
+            "date": "2026-06-13",
+            "url": "pending-deploy"
         }
     ]
 }
