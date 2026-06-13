@@ -2,6 +2,7 @@
 
 | Date | Brand | Live URL |
 |------|-------|----------|
+| 2026-06-13 | [ritual-coffee-roasters](https://ritual-coffee-roasters-lrvccunwn-samyjoes-projects.vercel.app) | https://ritual-coffee-roasters-lrvccunwn-samyjoes-projects.vercel.app |
 | 2026-06-11 | [sightglass-coffee](https://sightglass-coffee-nzz69ydmk-samyjoes-projects.vercel.app) | https://sightglass-coffee-nzz69ydmk-samyjoes-projects.vercel.app |
 | 2026-06-10 | [sightglass-coffee](https://sightglass-coffee-7b2mq2fqc-samyjoes-projects.vercel.app) | https://sightglass-coffee-7b2mq2fqc-samyjoes-projects.vercel.app |
 | 2026-06-09 | [blue-bottle-coffee](https://blue-bottle-coffee-3jvbpnyx3-samyjoes-projects.vercel.app) | https://blue-bottle-coffee-3jvbpnyx3-samyjoes-projects.vercel.app |
