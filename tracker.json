@@ -1,114 +1,119 @@
-{
-    "projects": [
-        {
-            "brand": "testing",
-            "date": "2026-06-05",
-            "url": "https://testing-oauir8pdd-samyjoes-projects.vercel.app"
-        },
-        {
-            "brand": "testing",
-            "date": "2026-06-05",
-            "url": "https://testing-972a5lpjk-samyjoes-projects.vercel.app"
-        },
-        {
-            "brand": "onyx-coffee-lab",
-            "date": "2026-06-05",
-            "url": "https://onyx-coffee-3nv1n4chu-samyjoes-projects.vercel.app"
-        },
-        {
-            "brand": "verve-coffee-roasters",
-            "date": "2026-06-06",
-            "url": "pending-deploy"
-        },
-        {
-            "brand": "verve-coffee-roasters",
-            "date": "2026-06-06",
-            "url": "https://verve-coffee-roasters-2dco8a8hb-samyjoes-projects.vercel.app"
-        },
-        {
-            "brand": "intelligentsia-coffee",
-            "date": "2026-06-07",
-            "url": "pending-deploy"
-        },
-        {
-            "brand": "intelligentsia-coffee",
-            "date": "2026-06-07",
-            "url": "https://intelligentsia-coffee-93tppcybu-samyjoes-projects.vercel.app"
-        },
-        {
-            "brand": "stumptown-coffee-roasters",
-            "date": "2026-06-08",
-            "url": "pending-deploy"
-        },
-        {
-            "brand": "stumptown-coffee-roasters",
-            "date": "2026-06-08",
-            "url": "https://stumptown-coffee-roasters-h3p0q0kth-samyjoes-projects.vercel.app"
-        },
-        {
-            "brand": "blue-bottle-coffee",
-            "date": "2026-06-09",
-            "url": "pending-deploy"
-        },
-        {
-            "brand": "blue-bottle-coffee",
-            "date": "2026-06-09",
-            "url": "https://blue-bottle-coffee-3jvbpnyx3-samyjoes-projects.vercel.app"
-        },
-        {
-            "brand": "sightglass-coffee",
-            "date": "2026-06-10",
-            "url": "pending-deploy"
-        },
-        {
-            "brand": "sightglass-coffee",
-            "date": "2026-06-10",
-            "url": "https://sightglass-coffee-7b2mq2fqc-samyjoes-projects.vercel.app"
-        },
-        {
-            "brand": "sightglass-coffee",
-            "date": "2026-06-11",
-            "url": "https://sightglass-coffee-nzz69ydmk-samyjoes-projects.vercel.app"
-        },
-        {
-            "brand": "la-colombe-coffee-roasters",
-            "date": "2026-06-13",
-            "url": "pending-deploy"
-        },
-        {
-            "brand": "ritual-coffee-roasters",
-            "date": "2026-06-13",
-            "url": "pending-deploy"
-        },
-        {
-            "brand": "ritual-coffee-roasters",
-            "date": "2026-06-13",
-            "url": "https://ritual-coffee-roasters-lrvccunwn-samyjoes-projects.vercel.app"
-        },
-        {
-            "brand": "equator-coffees",
-            "date": "2026-06-14",
-            "url": "pending-deploy"
-        },
-        {
-            "brand": "equator-coffees",
-            "date": "2026-06-14",
-            "url": "https://equator-coffees-56kww6n3i-samyjoes-projects.vercel.app"
-        },
-        {
-            "brand": "counter-culture-coffee",
-            "date": "2026-06-15",
-            "url": "pending-deploy"
-        },
-        {
-            "brand": "counter-culture-coffee",
-            "date": "2026-06-15",
-            "url": "https://counter-culture-coffee-jci47764s-samyjoes-projects.vercel.app"
-        },
-        {
-            "brand": "george-howell-coffee",
-            "date": "2026-06-16",
-            "url": "pending-deploy"
-        }
-    ]
+﻿{
+    "projects":  [
+                     {
+                         "brand":  "testing",
+                         "date":  "2026-06-05",
+                         "url":  "https://testing-oauir8pdd-samyjoes-projects.vercel.app"
+                     },
+                     {
+                         "brand":  "testing",
+                         "date":  "2026-06-05",
+                         "url":  "https://testing-972a5lpjk-samyjoes-projects.vercel.app"
+                     },
+                     {
+                         "brand":  "onyx-coffee-lab",
+                         "date":  "2026-06-05",
+                         "url":  "https://onyx-coffee-3nv1n4chu-samyjoes-projects.vercel.app"
+                     },
+                     {
+                         "brand":  "verve-coffee-roasters",
+                         "date":  "2026-06-06",
+                         "url":  "pending-deploy"
+                     },
+                     {
+                         "brand":  "verve-coffee-roasters",
+                         "date":  "2026-06-06",
+                         "url":  "https://verve-coffee-roasters-2dco8a8hb-samyjoes-projects.vercel.app"
+                     },
+                     {
+                         "brand":  "intelligentsia-coffee",
+                         "date":  "2026-06-07",
+                         "url":  "pending-deploy"
+                     },
+                     {
+                         "brand":  "intelligentsia-coffee",
+                         "date":  "2026-06-07",
+                         "url":  "https://intelligentsia-coffee-93tppcybu-samyjoes-projects.vercel.app"
+                     },
+                     {
+                         "brand":  "stumptown-coffee-roasters",
+                         "date":  "2026-06-08",
+                         "url":  "pending-deploy"
+                     },
+                     {
+                         "brand":  "stumptown-coffee-roasters",
+                         "date":  "2026-06-08",
+                         "url":  "https://stumptown-coffee-roasters-h3p0q0kth-samyjoes-projects.vercel.app"
+                     },
+                     {
+                         "brand":  "blue-bottle-coffee",
+                         "date":  "2026-06-09",
+                         "url":  "pending-deploy"
+                     },
+                     {
+                         "brand":  "blue-bottle-coffee",
+                         "date":  "2026-06-09",
+                         "url":  "https://blue-bottle-coffee-3jvbpnyx3-samyjoes-projects.vercel.app"
+                     },
+                     {
+                         "brand":  "sightglass-coffee",
+                         "date":  "2026-06-10",
+                         "url":  "pending-deploy"
+                     },
+                     {
+                         "brand":  "sightglass-coffee",
+                         "date":  "2026-06-10",
+                         "url":  "https://sightglass-coffee-7b2mq2fqc-samyjoes-projects.vercel.app"
+                     },
+                     {
+                         "brand":  "sightglass-coffee",
+                         "date":  "2026-06-11",
+                         "url":  "https://sightglass-coffee-nzz69ydmk-samyjoes-projects.vercel.app"
+                     },
+                     {
+                         "brand":  "la-colombe-coffee-roasters",
+                         "date":  "2026-06-13",
+                         "url":  "pending-deploy"
+                     },
+                     {
+                         "brand":  "ritual-coffee-roasters",
+                         "date":  "2026-06-13",
+                         "url":  "pending-deploy"
+                     },
+                     {
+                         "brand":  "ritual-coffee-roasters",
+                         "date":  "2026-06-13",
+                         "url":  "https://ritual-coffee-roasters-lrvccunwn-samyjoes-projects.vercel.app"
+                     },
+                     {
+                         "brand":  "equator-coffees",
+                         "date":  "2026-06-14",
+                         "url":  "pending-deploy"
+                     },
+                     {
+                         "brand":  "equator-coffees",
+                         "date":  "2026-06-14",
+                         "url":  "https://equator-coffees-56kww6n3i-samyjoes-projects.vercel.app"
+                     },
+                     {
+                         "brand":  "counter-culture-coffee",
+                         "date":  "2026-06-15",
+                         "url":  "pending-deploy"
+                     },
+                     {
+                         "brand":  "counter-culture-coffee",
+                         "date":  "2026-06-15",
+                         "url":  "https://counter-culture-coffee-jci47764s-samyjoes-projects.vercel.app"
+                     },
+                     {
+                         "brand":  "george-howell-coffee",
+                         "date":  "2026-06-16",
+                         "url":  "pending-deploy"
+                     },
+                     {
+                         "brand":  "george-howell-coffee",
+                         "date":  "2026-06-16",
+                         "url":  "https://george-howell-coffee-8xtcw8npu-samyjoes-projects.vercel.app"
+                     }
+                 ]
 }
