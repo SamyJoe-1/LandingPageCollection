@@ -2,6 +2,7 @@
 
 | Date | Brand | Live URL |
 |------|-------|----------|
+| 2026-06-17 | [devocion](https://devocion-murva6in7-samyjoes-projects.vercel.app) | https://devocion-murva6in7-samyjoes-projects.vercel.app |
 | 2026-06-16 | [george-howell-coffee](https://george-howell-coffee-8xtcw8npu-samyjoes-projects.vercel.app) | https://george-howell-coffee-8xtcw8npu-samyjoes-projects.vercel.app |
 | 2026-06-15 | [counter-culture-coffee](https://counter-culture-coffee-jci47764s-samyjoes-projects.vercel.app) | https://counter-culture-coffee-jci47764s-samyjoes-projects.vercel.app |
 | 2026-06-14 | [equator-coffees](https://equator-coffees-56kww6n3i-samyjoes-projects.vercel.app) | https://equator-coffees-56kww6n3i-samyjoes-projects.vercel.app |
