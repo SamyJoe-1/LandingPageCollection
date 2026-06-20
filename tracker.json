@@ -139,6 +139,11 @@
                          "brand":  "olympia-coffee-roasting",
                          "date":  "2026-06-20",
                          "url":  "pending-deploy"
+                     },
+                     {
+                         "brand":  "olympia-coffee-roasting",
+                         "date":  "2026-06-20",
+                         "url":  "https://olympia-coffee-roasting-hlpctiqym-samyjoes-projects.vercel.app"
                      }
                  ]
 }
