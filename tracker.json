@@ -134,6 +134,11 @@
                          "brand":  "coava-coffee-roasters",
                          "date":  "2026-06-19",
                          "url":  "https://coava-coffee-roasters-80u00e333-samyjoes-projects.vercel.app"
+                     },
+                     {
+                         "brand":  "olympia-coffee-roasting",
+                         "date":  "2026-06-20",
+                         "url":  "pending-deploy"
                      }
                  ]
 }
