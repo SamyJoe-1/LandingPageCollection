@@ -2,6 +2,7 @@
 
 | Date | Brand | Live URL |
 |------|-------|----------|
+| 2026-06-21 | [heart-coffee-roasters](https://heart-coffee-roasters-nszdtzi2s-samyjoes-projects.vercel.app) | https://heart-coffee-roasters-nszdtzi2s-samyjoes-projects.vercel.app |
 | 2026-06-20 | [olympia-coffee-roasting](https://olympia-coffee-roasting-hlpctiqym-samyjoes-projects.vercel.app) | https://olympia-coffee-roasting-hlpctiqym-samyjoes-projects.vercel.app |
 | 2026-06-19 | [coava-coffee-roasters](https://coava-coffee-roasters-80u00e333-samyjoes-projects.vercel.app) | https://coava-coffee-roasters-80u00e333-samyjoes-projects.vercel.app |
 | 2026-06-17 | [devocion](https://devocion-murva6in7-samyjoes-projects.vercel.app) | https://devocion-murva6in7-samyjoes-projects.vercel.app |
