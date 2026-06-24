@@ -2,6 +2,7 @@
 
 | Date | Brand | Live URL |
 |------|-------|----------|
+| 2026-06-24 | [tandem-coffee-roasters](https://tandem-coffee-roasters-2j7rjbjsx-samyjoes-projects.vercel.app) | https://tandem-coffee-roasters-2j7rjbjsx-samyjoes-projects.vercel.app |
 | 2026-06-22 | [passenger-coffee](https://passenger-coffee-g404hmf8x-samyjoes-projects.vercel.app) | https://passenger-coffee-g404hmf8x-samyjoes-projects.vercel.app |
 | 2026-06-21 | [heart-coffee-roasters](https://heart-coffee-roasters-nszdtzi2s-samyjoes-projects.vercel.app) | https://heart-coffee-roasters-nszdtzi2s-samyjoes-projects.vercel.app |
 | 2026-06-20 | [olympia-coffee-roasting](https://olympia-coffee-roasting-hlpctiqym-samyjoes-projects.vercel.app) | https://olympia-coffee-roasting-hlpctiqym-samyjoes-projects.vercel.app |
