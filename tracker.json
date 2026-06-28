@@ -1,4 +1,4 @@
-﻿{
+{
     "projects": [
         {
             "brand": "testing",
@@ -193,6 +193,11 @@
         {
             "brand": "madcap-coffee",
             "date": "2026-06-27",
+            "url": "pending-deploy"
+        },
+        {
+            "brand": "temple-coffee-roasters",
+            "date": "2026-06-28",
             "url": "pending-deploy"
         }
     ]
