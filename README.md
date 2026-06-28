@@ -2,6 +2,7 @@
 
 | Date | Brand | Live URL |
 |------|-------|----------|
+| 2026-06-28 | [temple-coffee-roasters](https://temple-coffee-roasters-fim4dtyob-samyjoes-projects.vercel.app) | https://temple-coffee-roasters-fim4dtyob-samyjoes-projects.vercel.app |
 | 2026-06-25 | [black-and-white-coffee-roasters](https://black-and-white-coffee-roasters-bnym275l7-samyjoes-projects.vercel.app) | https://black-and-white-coffee-roasters-bnym275l7-samyjoes-projects.vercel.app |
 | 2026-06-24 | [tandem-coffee-roasters](https://tandem-coffee-roasters-2j7rjbjsx-samyjoes-projects.vercel.app) | https://tandem-coffee-roasters-2j7rjbjsx-samyjoes-projects.vercel.app |
 | 2026-06-22 | [passenger-coffee](https://passenger-coffee-g404hmf8x-samyjoes-projects.vercel.app) | https://passenger-coffee-g404hmf8x-samyjoes-projects.vercel.app |
