@@ -209,6 +209,11 @@
             "brand": "cat-and-cloud-coffee",
             "date": "2026-06-30",
             "url": "pending-deploy"
+        },
+        {
+            "brand": "ceremony-coffee-roasters",
+            "date": "2026-07-01",
+            "url": "pending-deploy"
         }
     ]
 }
