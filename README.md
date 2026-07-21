@@ -2,6 +2,7 @@
 
 | Date | Brand | Live URL |
 |------|-------|----------|
+| 2026-07-21 | [red-bay-coffee](https://red-bay-coffee-f65o6y2xc-samyjoes-projects.vercel.app) | https://red-bay-coffee-f65o6y2xc-samyjoes-projects.vercel.app |
 | 2026-07-04 | [bird-rock-coffee-roasters](https://bird-rock-coffee-roasters-9hrex0uh5-samyjoes-projects.vercel.app) | https://bird-rock-coffee-roasters-9hrex0uh5-samyjoes-projects.vercel.app |
 | 2026-07-01 | [ceremony-coffee-roasters](https://ceremony-coffee-roasters-c0kggxl1q-samyjoes-projects.vercel.app) | https://ceremony-coffee-roasters-c0kggxl1q-samyjoes-projects.vercel.app |
 | 2026-06-28 | [temple-coffee-roasters](https://temple-coffee-roasters-fim4dtyob-samyjoes-projects.vercel.app) | https://temple-coffee-roasters-fim4dtyob-samyjoes-projects.vercel.app |
